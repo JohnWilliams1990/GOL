@@ -40,11 +40,12 @@ def print_board(board):
 #			print (board[i][j], end = ' ')
 #		print("")
 #	print("")
-#def move(board):
-#	size = len(board[0]) - 2
+
 #[i-1,j-1][i-1,j  ][i-1,j+1]
 #[i,  j-1][i  ,j  ][i  ,j+1]
 #[i+1,j-1][i+1,j  ][i+1,j+1]
+def move(board):
+	size = len(board[0]) - 2
 	alive = gen_board(len(board))
 	for i in range(1, size + 1):
 		for j in range(1, size + 1):
