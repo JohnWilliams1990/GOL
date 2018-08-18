@@ -41,6 +41,7 @@ def print_board(board):
 #		print("")
 #	print("")
 
+
 #[i-1,j-1][i-1,j  ][i-1,j+1]
 #[i,  j-1][i  ,j  ][i  ,j+1]
 #[i+1,j-1][i+1,j  ][i+1,j+1]
